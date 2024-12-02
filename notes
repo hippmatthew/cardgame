@@ -1,0 +1,21 @@
+RULES:
+Draw a hand of 4 cards
+Pick one card and bet on whether it is higher or lower than the other person's card
+If the bet is successful, do nothing
+If the bet is unsuccessful, draw a card
+Try to get rid of your entire hand
+If you play equal cards nothing happens
+Joker makes the opponent draw maximum hand cards
+If 2 jokers are played, both players draw maximum card hands
+cards are evaluated as follows: CARD VALUE + CARD SUIT VALUE
+Suit values are as follows: CLUBS = -1 DIAMONDS = 0 HEARTS = 1 SPADES = 2 ( make this random?)
+Card values are face values. A = 1, J = 11, Q = 12, K = 13.
+
+--------------
+| 8S         |
+|            |
+|   TEN      |     -------
+|   DIAMONDS |     |*****|
+|            |     |*****|
+|         8S |     |*****|
+--------------     -------
